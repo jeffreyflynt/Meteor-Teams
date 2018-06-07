@@ -6,15 +6,15 @@ To use as is, install from npm:
 
     meteor npm install --save
 
-sparkpost - To send e-mails. https://www.sparkpost.com The free dev account allows 15,000 e-mails per month.
+sparkpost - To send e-mails. https://www.sparkpost.com The free dev account allows 15,000 e-mails per month.  
 crypto-random-string - To generate random tokens for user invites.
 
 Meteor will need:
 
-check - To validate arguments
-iron:router - Routing
-accounts-password
-accounts-base
+check - To validate arguments  
+iron:router - Routing  
+accounts-password  
+accounts-base  
 email
 
 ## Parameters
