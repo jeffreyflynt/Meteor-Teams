@@ -47,5 +47,10 @@ Meteor.methods({
     };
     Meteor.users.update({_id: this.userId}, {$set: {permissions: userData}});
     Invitations.remove(id);
+  },
+  getInvite(token) {
+    if (!this.userId) throw new Meteor.Error(401, "Login required");
+    check(token, String);
+    return Invitations.find({token: token});
   }
 });
