@@ -1,5 +1,7 @@
 Meteor boilerplate to add teams functionality to user accounts. This code is just to get you started with methods and functions on the server. UI components are not included since there are so many options when selecting a front-end framework.
 
+Article: https://medium.com/@jeffreyflynt02/adding-teams-to-user-accounts-in-your-saas-app-d78d3fab98ef
+
 ## Dependencies
 
 To use as is, install from npm:
